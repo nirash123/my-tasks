@@ -63,7 +63,7 @@ class _HomePageState extends State<HomePage> {
                   style: subHeadingStyle,
                 ),
                 Text(
-                  "Today",
+                  "Today ",
                   style: headingStyle,
                 )
               ],
