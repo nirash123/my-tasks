@@ -111,6 +111,7 @@ class _HomePageState extends State<HomePage> {
                 width: 100,
                 height: 50,
                 color: Colors.green,
+                margin: const EdgeInsets.only(bottom: 10),
               );
             });
       }),

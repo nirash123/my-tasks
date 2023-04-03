@@ -44,6 +44,7 @@ dependencies:
   google_fonts:
   date_picker_timeline:
   flutter_native_timezone:
+  path_provider: ^2.0.5
 
 dev_dependencies:
   flutter_test:
