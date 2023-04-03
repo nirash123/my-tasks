@@ -1,11 +1,22 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 
+// const Color blueClr = Color.fromARGB(255, 70, 97, 252);
+// const Color greenClr = Color.fromARGB(255, 24, 179, 15);
+// const Color orangeClr = Color.fromARGB(255, 229, 124, 12);
+// const Color redClr = Color.fromARGB(255, 196, 9, 9);
+// const Color yellow1Clr = Color.fromARGB(255, 173, 173, 50);
+// const Color pink2Clr = Color.fromARGB(255, 163, 7, 190);
+// const Color purpelClr = Color.fromARGB(255, 107, 10, 210);
+// const Color pinkClr = Color.fromARGB(255, 200, 13, 73);
+// const Color blue1Clr = Color.fromARGB(255, 9, 151, 179);
+// const Color yellowClr = Color.fromARGB(255, 97, 99, 97);
+
 const Color blueClr = Color.fromARGB(255, 66, 90, 227);
 const Color greenClr = Color.fromARGB(255, 49, 195, 13);
 const Color orangeClr = Color.fromARGB(255, 229, 141, 47);
 const Color redClr = Color.fromARGB(255, 237, 68, 68);
-const Color yellow1Clr = Color.fromARGB(255, 232, 232, 4);
+const Color yellow1Clr = Color.fromARGB(255, 187, 187, 3);
 const Color pink2Clr = Color.fromARGB(255, 224, 78, 250);
 const Color purpelClr = Color.fromARGB(255, 159, 70, 255);
 const Color pinkClr = Color.fromARGB(255, 255, 70, 129);

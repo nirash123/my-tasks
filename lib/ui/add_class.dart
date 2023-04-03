@@ -286,7 +286,7 @@ class _AddClassState extends State<AddClass> {
           height: 8,
         ),
         Wrap(
-          children: List<Widget>.generate(8, (int index) {
+          children: List<Widget>.generate(10, (int index) {
             return GestureDetector(
               onTap: () {
                 setState(() {
@@ -294,7 +294,7 @@ class _AddClassState extends State<AddClass> {
                 });
               },
               child: Padding(
-                  padding: EdgeInsets.only(right: 8),
+                  padding: const EdgeInsets.only(right: 4),
                   child: CircleAvatar(
                     radius: 14,
                     backgroundColor: index == 0
@@ -315,7 +315,9 @@ class _AddClassState extends State<AddClass> {
                                                     ? pinkClr
                                                     : index == 8
                                                         ? blue1Clr
-                                                        : yellowClr,
+                                                        : index == 9
+                                                            ? yellowClr
+                                                            : yellowClr,
                     child: _selectedColor == index
                         ? const Icon(
                             Icons.done,
